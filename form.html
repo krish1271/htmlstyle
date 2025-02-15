@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        body{
+            background-color: rgb(120, 66, 244);
+            
+        }
+        form{
+            border: 2px solid black;
+            border-radius: 15px;
+            padding: 10px none;
+            background-color: rgba(0, 0, 0, 0.4);
+            text-align: center;
+            margin-top: 100px;
+            margin-left: 550px;
+            margin-right: 550px;
+        }
+        h1{
+            margin-left: 50px;
+            margin-bottom: 25px;
+        }
+        div {
+            margin-left: 20px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: azure;
+        }
+        input{
+            padding: 15px  50px;
+            border-radius: 15px;
+            border: none;
+            outline-color: rgb(48, 48, 48);
+            background-color: rgb(186, 186, 186);
+            color: black;
+
+        }
+        .submit{
+            padding: 15px 90px;
+            border: none;
+            background-color: rgb(206, 192, 228);
+            margin-bottom: 15px;
+        }
+        select , option{
+            padding: 15px 65px;
+            border-radius: 10px;
+            color: black;
+        }
+        #textarea{
+            padding: 10px 45px;
+            border-radius: 15px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    
+        
+        <form action="">
+            <h1>Say Hello!</h1>
+            <div>
+                <input type="text" name="name" class="name" placeholder="Enter your name">
+            </div>
+           
+            <div>
+                <input type="email" name="email" class="mail" placeholder="Enter your email address">
+            </div>
+            <div>
+                <select name="" class="select">
+                    <option value="">web development</option>
+                    <option value="">web design</option>
+                    <option value="">frontend</option>
+                    <option value="">backend</option>
+                </select>
+    
+            </div>
+            <div>
+                <textarea name="textarea" id="textarea" placeholder="write your messages"></textarea>
+            </div>
+            <div>
+                <input type="submit" class="submit">    
+            </div>
+        </form>
+    
+</body>
+</html>
